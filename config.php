@@ -1,12 +1,11 @@
-
         <?php
         
         session_start();
         
         $servername = "localhost";
         $username = "joao";
-        $password = "123456";
-        $dbname = "login";
+        $password = "joao123";
+        $dbname = "joao";
         
         $conn = new mysqli($servername , $username , $password , $dbname);
         

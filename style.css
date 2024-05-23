@@ -96,7 +96,7 @@ body * {
     color: #2F3949;
 }
 
-button {
+.button {
     width:200px;
     display: flex;
     flex-direction: center;
@@ -115,7 +115,7 @@ button {
     box-shadow: 0px 10px 40px -12px #f0ffffde;
 }
 
-button:hover{
+.button:hover{
     background:#484C42 ;
     cursor: pointer;
 }

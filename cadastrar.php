@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,22 +19,21 @@
                 <form action="cadastro.php" method="POST">
             <div class="textfield">
                 <label for="Usuario">Usuário</label>
-                <input type="text" placeholder="Usuário" name="name" required>
+                <input type="text" placeholder="Usuário" name="Id" required>
             </div>
             <div class="textfield">
                 <label for="Email">Email</label>
-                <input type="email" placeholder="Email" name="email" required>
+                <input type="email" placeholder="Email" name="Email" required>
             </div>
             <div class="textfield">
                 <label for="Senha">Senha</label>
-                <input type="password" placeholder="Senha" name="password" required>
+                <input type="password" placeholder="Senha" name="Senha" required>
             </div>
-            <button type="submit" value="cadastro">Cadastre-se</button> 
-            
+                  <input type="submit" value="Cadstre-se" class="button">
             <div>
-            <a href="index.php">Faça login</a>
+            <a href="login.php">Faça login</a>
             </div>
-                </form> <br><!--Puta QUe Pariou -->
+                </form> <br>
         </div>
     </div>
 </body>

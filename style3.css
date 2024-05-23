@@ -1,0 +1,171 @@
+body{margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: white;
+   
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background:#042B3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-50px;
+}
+
+.progresso{
+    border-radius: 30px;
+    background: #00000056
+}
+
+.sair{
+    width: 15vh;
+    height: 5vh;
+    border-radius:20px;
+    background: #ffffff;
+    font-family:"Roboto";
+    text-decoration: none;
+    
+}
+.sair:hover{
+    background-color: #ccc;
+    text-decoration: none;
+}
+.sair > a {
+    text-decoration: none;
+}
+.video-box{
+    width: 60vw;
+    height:60vh;
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    background: #2F3949;
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+.left-box{
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-box{
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.input-search{
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.search-btn , .dropbtn{
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.search-btn:hover , .dropbtn:hover{
+    background:#ccc; 
+}
+
+.tab{
+    font-family: "Roboto";
+    max-width: 700px;
+    min-height: 400px;
+    margin: 30px 100px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.tab-title{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    text-align: center;
+    background: white;
+    color: black;
+    border: #000000;
+}
+ .tab-itens{
+    width:300px;
+    height: 60vh;
+    padding: 10px;
+    background: #ccc;
+    overflow-y: auto;
+    position: fixed;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+
+.link-contener{
+    width:10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #000000;
+    background:#f0ffffde ;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #f0ffffde;
+    
+}
+span{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    text-align: center;
+    color:white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
